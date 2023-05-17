@@ -1,0 +1,346 @@
+body{
+    margin: 0px;
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+/* seccion header */
+header {
+    position: sticky;
+    top: 0;
+    z-index: 3;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+
+.box-list {
+    min-width: 50%;
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-end;
+    min-height: 15vh;
+    background-color: aquamarine;
+    align-items: center;
+
+
+}
+
+
+li {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.contact {
+    box-sizing: border-box;
+    min-width: 15%;
+    padding: 2px 30px;
+    border: 1px solid rgb(131, 56, 236);
+    border-radius: 20px;
+    background-color: rgb(131, 56, 236);
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+
+}
+
+
+.box-list>li{
+    text-decoration: none;
+}
+
+/* final de secciom header */
+
+/* seccion presentacion */
+.box-principal {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 255, 255);
+    padding: 50px 100px;
+}
+
+.info {
+    flex-grow: 1;
+    padding-left: 50px;
+
+}
+
+.contenedor-imagen {
+  
+    padding: 0;
+    flex-grow: 1;
+    }
+
+
+
+.titulo {
+
+    font-size: 50px;
+}
+
+.usuario {
+    font-size: 80px;
+    color: plum;
+    font-weight: 800;
+    margin: 15px 0px;
+}
+
+.jobbie {
+    font-size: 25px;
+    color: rgb(143, 124, 102);
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+.boton {
+    text-decoration: none;
+    color: white;
+    background-color: violet;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+/* seccion conocimiento */
+
+.mis-conocimientos {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(246, 247, 251);
+
+}
+
+.box-info-conocimiento,
+.box-info-proyectos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info-subtitulo {
+    width: 60%;
+}
+
+.box-card {
+    display: flex;
+    justify-content: space-around;
+    width: 73%;
+    flex-wrap: wrap;
+
+
+}
+
+
+.card {
+
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(221, 223, 229);
+    align-items: center;
+    width: 250px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    background-color: white;
+
+
+
+}
+
+figure {
+    height: 50%;
+    display: flex;
+    align-items: center;
+    padding: 50px;
+}
+
+.icon {
+    font-size: 75px;
+}
+
+.fa-html5 {
+    color: rgb(229, 77, 38);
+}
+
+.fa-css3-alt {
+    color: rgb(61, 143, 198);
+}
+
+.fa-sass {
+    color: rgb(204, 102, 153);
+}
+
+.fa-js {
+    color: rgb(240, 219, 79)
+}
+
+.fa-react {
+    color: rgb(191, 240, 253);
+}
+
+.fa-git-alt {
+    color: rgb(243, 79, 41);
+}
+
+/* seccion frase */
+
+.box-frase {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    background-color: blueviolet;
+
+}
+
+.comillas {
+    display: flex;
+    width: 20%;
+    background-color: blueviolet;
+    justify-content: center;
+}
+
+.fa-quote-right {
+    color: white;
+    font-size: 50px;
+}
+
+.frase {
+    width: 40%;
+
+    font-size: 30px;
+    color: white;
+}
+
+.box-nombre {
+    display: flex;
+    justify-content: center;
+
+}
+
+.nombre {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+/* seccion mis proyectos */
+
+
+.mis-proyectos {
+    display: flex;
+    flex-direction: column;
+
+}
+
+.box-info-proyectos {
+    text-align: center;
+    padding: 50px;
+
+}
+
+.box-projectos {
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 30px 50px;
+}
+
+.sector-proyecto {
+    border: 2px solid rgb(224, 224, 224);
+    margin: 10px;
+    background-color: white;
+    padding: auto;
+
+}
+
+
+.box {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 300px;
+    padding: 5px;
+
+
+}
+
+img[src$=jpg] {
+    width: 80%;
+}
+
+[href] {
+    text-decoration: none;
+
+}
+
+/* fin de conocimiento  */
+/* seccion footer */
+
+.pie-de-pagina {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    align-items: center;
+
+}
+
+
+.lista {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+.menu>a {
+
+    color: white;
+    margin: 10px;
+}
+
+.icono-footer {
+    display: flex;
+    justify-content: center;
+    padding: auto;
+
+}
+
+.icono-footer>div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 100%;
+}
+
+a>i {
+    color: blueviolet;
+
+}
+
+.icon2 {
+    font-size: 20px;
+}
