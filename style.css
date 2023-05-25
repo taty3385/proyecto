@@ -1,7 +1,8 @@
 body {
     margin: 0px;
     box-sizing: border-box;
-    font-size: 16px font-family 'Montserrat', sans-serif;
+    font-size: 1rem ;
+   
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -15,28 +16,28 @@ header {
 }
 
 
-.box-list {
+.container-list-nav {
     min-width: 50%;
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     list-style: none;
+    padding: 0;
+   
 }
 
-.container {
+.container-nav {
     display: flex;
-    justify-content: flex-end;
+   justify-content: flex-end;
     min-height: 20vh;
     background-color: rgb(229, 152, 155);
     align-items: center;
-
-
-
+  
 }
 
 
-li {
-
-    font-size: 1.25rem;
+.list {
+font-size: 1.25rem;
+margin-left: 1.875rem;
 
 }
 
@@ -60,7 +61,7 @@ li>a {
 /* final de secciom header */
 
 /* seccion presentacion */
-.box-principal {
+.seccion-principal {
     box-sizing: border-box;
     display: flex;
     justify-content: center;
@@ -71,14 +72,14 @@ li>a {
 
 }
 
-.info {
+.info-personal {
     width: 45%;
     display: flex;
     flex-direction: column;
 
 }
 
-.jobbie {
+.info-personal-jobbie {
 
     font-size: 1.5625rem;
     color: rgb(143, 124, 102);
@@ -103,20 +104,20 @@ img {
 }
 
 
-.titulo {
+.info-personal-titulo {
 
     font-size: 1.875rem;
     margin: 1.875rem 0rem 0rem 0rem
 }
 
-.usuario {
+.info-personal-usuario {
     font-size: 3.125rem;
     color: rgb(181, 131, 141);
     font-weight: 50rem;
     margin: 1.25rem 0px;
 }
 
-.box-boton {
+.contenedor-boton {
 
     margin: 2.5rem 0rem;
 }
@@ -142,40 +143,40 @@ img {
     padding: 4.375rem 0PX
 }
 
-.box-info-conocimiento,
-.box-info-proyectos {
+.container-conocimiento,
+.container-proyectos {
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-bottom: 30px;
 }
 
-.subtitulo {
+.titulos {
     font-size: 2.5rem;
     font-weight: 700;
     font-style: italic;
 }
 
-.info-subtitulo {
+.parrafo {
     font-size: 1.25rem;
     margin: 0px;
-}
-
-
-.info-subtitulo {
     width: 60%;
 }
 
-.box-card {
+
+
+.container-card {
+
     display: flex;
     justify-content: center;
-    width: 100%;
+    width: 70%;
     flex-wrap: wrap;
 }
 
 .info-card {
     font-size: 1.125rem;
     font-weight: bold;
+    text-align: center;
 }
 
 
@@ -188,7 +189,7 @@ img {
     justify-content: center;
     width: 30%;
     height: 50%;
-    margin: 5px;
+    margin: 0.3125rem;
 
     border-radius: 0.625rem;
     background-color: white;
@@ -198,8 +199,8 @@ img {
 
 
 .icon {
-    font-size: 100px;
-    padding: 25px;
+    font-size: 6.25rem;
+    padding: 1.5625rem;
 
 }
 
@@ -229,7 +230,7 @@ img {
 
 /* seccion frase */
 
-.box-frase {
+.container-frase {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -247,7 +248,7 @@ img {
 
 .fa-quote-right {
     color: white;
-    font-size: 50px;
+    font-size: 3.125rem;
 }
 
 .frase {
@@ -257,13 +258,13 @@ img {
     color: white;
 }
 
-.box-nombre {
+.container-nombre {
     display: flex;
     justify-content: center;
 
 }
 
-.nombre {
+.titulo-nombre {
     color: white;
     font-size: 2.5rem;
     font-weight: bold;
@@ -280,7 +281,7 @@ img {
 
 }
 
-.box-info-proyectos {
+.container-proyectos {
     text-align: center;
     padding: 1.875rem;
 
@@ -295,11 +296,11 @@ img {
 
 }
 
-.sector-proyecto {
+.card-proyecto {
     border: 0.125rem solid rgb(224, 224, 224);
     margin: 0.625rem;
     background-color: white;
-    /* padding: auto; */
+   
     width: 30%;
     display: flex;
 
@@ -343,8 +344,58 @@ img[src$=jpg] {
     background-color: rgb(246, 247, 251);
 
 }
+.contactos {
 
-.formulario {
+    display: flex;
+    width: 80%;
+    justify-content: center;
+    border: solid 1px gray;
+    background-color: white;
+    border-radius: 1.25rem;
+    padding: 0.3125rem;
+    flex-wrap: wrap;
+    margin: 6.25rem 0rem;
+}
+
+.container-contactame {
+
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1.25rem;
+    width: 45%;
+}
+
+.info-contacto {
+    margin-bottom: 40px;
+}
+
+.contenedor-redes-sociales {
+    display: flex;
+    margin: 0;
+    padding: 20px 0px;
+    flex-direction: column;
+    flex-grow: 1;
+}
+.redes-sociales {
+    display: flex;
+    list-style: none;
+    flex-grow: 1;
+    color: black;
+    margin-bottom: 5px;
+}
+.box-icon-redes {
+    color: black;
+    display: block;
+}
+
+.icon3 {
+    width: 1.25rem;
+    margin: 0rem 1.25rem 0rem 0rem;
+    color: blueviolet;
+}
+
+
+.container-formulario {
     width: 45%;
     padding: 0.625rem;
 
@@ -359,7 +410,7 @@ img[src$=jpg] {
     display: flex;
     flex-direction: column;
     width: 40%;
-    margin: 0px 30px 0px 0px;
+    margin: 0rem 1.875rem 0rem 0rem;
 }
 
 .formu-apellido {
@@ -368,73 +419,7 @@ img[src$=jpg] {
     width: 40%;
 }
 
-.contactame {
-
-    width: 45%;
-}
-
-.contactos {
-
-    display: flex;
-    width: 80%;
-    justify-content: center;
-    border: solid 1px gray;
-    background-color: white;
-    border-radius: 20px;
-    padding: 5px;
-    flex-wrap: wrap;
-    margin: 100px 0px;
-}
-
-
-
-.contactame {
-
-    display: flex;
-    flex-direction: column;
-    padding: 20px 20px
-}
-
-.info-contacto {
-    margin-bottom: 40px;
-}
-
-
-.contenedor-redes-sociales {
-    display: flex;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-}
-
-.box-icon-redes {
-    color: black;
-}
-
-.box.icon-redes {
-    display: block;
-}
-
-.redes-sociales {
-    display: flex;
-    list-style: none;
-    flex-grow: 1;
-    color: black;
-    margin-bottom: 5px;
-}
-
-.icon3 {
-    width: 20px;
-    margin: 0px 20px 0px 0px;
-    color: blueviolet;
-}
-
-
-
-
-.formulario {
+.container-formulario {
     padding: 20px 20px;
 }
 
@@ -543,7 +528,7 @@ a>i {
 /* media query */
 
 @media(max-width:1075px) {
-    .container {
+    .container-nav {
         display: none;
     }
 
@@ -551,7 +536,7 @@ a>i {
         width: 70%;
     }
 
-    .box-principal {
+    .seccion-principal {
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -559,7 +544,7 @@ a>i {
         padding-bottom: 6.25rem;
     }
 
-    .info {
+    .info-personal {
         text-align: center;
     }
 
@@ -567,15 +552,16 @@ a>i {
         width: 12.5rem;
     }
 
-    .titulo {
+    .info-personal-titulo {
         font-size: 3.125rem;
     }
 
-    .usuario {
+    .info-personal-usuario {
         font-size: 3.75rem;
     }
 
-    .box-card {
+
+    .container-card {
         width: 80%;
     }
 }
@@ -588,7 +574,7 @@ a>i {
 }
 
 @media(max-width:941px) {
-    .box-card {
+    .container-card {
         justify-content: center;
     }
 
@@ -611,9 +597,9 @@ a>i {
 
     }
 
-    .sector-proyecto {
+    .card-proyecto {
         width: 40%;
-        /* padding: 25px; */
+
     }
 
     .contactos {
@@ -624,13 +610,13 @@ a>i {
 }
 
 @media(max-width:887px) {
-    .contactame {
+    .container-contactame {
         flex-grow: 1;
 
     }
 
 
-    .formulario {
+    .container-formulario {
         flex-grow: 1;
         text-align: center;
     }
@@ -661,11 +647,11 @@ a>i {
         font-size: 50px;
     }
 
-    .titulo {
+    .info-personal-titulo {
         font-size: 30px;
     }
 
-    .usuario {
+    .info-personal-usuario {
         font-size: 40px;
     }
 
@@ -675,8 +661,9 @@ a>i {
 }
 
 @media(max-width:568px) {
-    .sector-proyecto {
+    .card-proyecto {
         width: 70%;
+
     }
 
     .contenedor-redes-sociales {
@@ -717,7 +704,7 @@ a>i {
         width: 45%;
     }
 
-    .box-card {
+    .container-card {
         width: 100%;
     }
 
@@ -727,7 +714,7 @@ a>i {
 }
 
 @media(max-width:364px) {
-    .subtitulo {
+    .titulos {
         text-align: center;
     }
 
@@ -738,7 +725,7 @@ a>i {
 
 
 @media(max-width:360px) {
-    .subtitulo {
+    .conociemiento-titulo {
         text-align: center;
     }
 
@@ -756,5 +743,8 @@ a>i {
 
     .lista {
         padding: 0px;
+    }
+    .titulo-nombre{
+        text-align: center;
     }
 }
