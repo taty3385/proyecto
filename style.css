@@ -1,8 +1,8 @@
 body {
     margin: 0px;
     box-sizing: border-box;
-    font-size: 1rem ;
-   
+    font-size: 1rem;
+
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -22,22 +22,22 @@ header {
     justify-content: flex-start;
     list-style: none;
     padding: 0;
-   
+
 }
 
 .container-nav {
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
     min-height: 15vh;
     background-color: rgb(229, 152, 155);
     align-items: center;
-  
+
 }
 
 
 .list {
-font-size: 1.25rem;
-margin-left: 1.875rem;
+    font-size: 1.25rem;
+    margin-left: 1.875rem;
 
 }
 
@@ -45,13 +45,12 @@ li>a {
     color: white;
 }
 
-.contact {
+.boton-contact {
     box-sizing: border-box;
     min-width: 15%;
-    padding: 0.125rem 1.875rem;
-    border: 1px solid rgb(131, 56, 236);
+    padding: 2px 30px;
     border-radius: 1.25rem;
-    background-color: rgb(131, 56, 236);
+    background-color: #d6d9ce;
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
@@ -68,7 +67,7 @@ li>a {
     flex-wrap: wrap;
     background-color: rgb(255, 255, 255);
     padding: 70px 0;
-   
+
 
 
 }
@@ -124,12 +123,14 @@ img {
 }
 
 .boton {
-    text-decoration: none;
-    color: white;
-    background-color: violet;
+    box-sizing: border-box;
+    min-width: 15%;
     padding: 0.625rem 1.875rem;
-    border-radius: 0.625rem;
-    box-shadow: 0.0625rem 0.1875rem 0.1875rem 0.0625rem gray;
+    border-radius: 1.25rem;
+    background-color: #d6d9ce;
+    color: white;
+    font-size: 1.25rem;
+    text-decoration: none;
 }
 
 /* seccion conocimiento */
@@ -191,7 +192,6 @@ img {
     width: 30%;
     height: 50%;
     margin: 0.3125rem;
-
     border-radius: 0.625rem;
     background-color: white;
 
@@ -302,7 +302,7 @@ img {
     border: 0.125rem solid rgb(224, 224, 224);
     margin: 0.625rem;
     background-color: white;
-   
+
     width: 30%;
     display: flex;
 
@@ -346,6 +346,7 @@ img[src$=jpg] {
     background-color: rgb(246, 247, 251);
 
 }
+
 .contactos {
 
     display: flex;
@@ -378,6 +379,7 @@ img[src$=jpg] {
     flex-direction: column;
     flex-grow: 1;
 }
+
 .redes-sociales {
     display: flex;
     list-style: none;
@@ -385,9 +387,13 @@ img[src$=jpg] {
     color: black;
     margin-bottom: 5px;
 }
+
 .box-icon-redes {
     color: black;
     display: block;
+    height: 50%;
+    padding: 5px 20px;
+    border-radius: 20px;
 }
 
 .icon3 {
@@ -453,8 +459,8 @@ textarea {
 
 }
 
-.boton {
-    background-color: violet;
+.boton-formu {
+    background-color: #d6d9ce;
     width: 6.25rem;
     margin: 20px 0px;
     padding: 15px;
@@ -464,15 +470,6 @@ textarea {
     transition-timing-function: 7s;
 
 }
-
-.boton:active {
-    box-shadow: none;
-
-
-
-
-}
-
 
 
 /* fin  de formulario */
@@ -507,7 +504,7 @@ textarea {
 
 }
 
-.icono-footer>div {
+.icono-footer>.container-icon2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -525,6 +522,8 @@ a>i {
 
 .icon2 {
     font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 100%;
 }
 
 /* media query */
@@ -702,6 +701,15 @@ a>i {
 
 
 @media (max-width:416px) {
+    .boton {
+        width: 10%;
+        padding: 5px 20px;
+    }
+
+    .conociemiento-titulo {
+        text-align: center;
+    }
+
     .card {
         width: 45%;
     }
@@ -727,6 +735,11 @@ a>i {
 
 
 @media(max-width:360px) {
+    .boton {
+        width: 30%;
+        padding: 10px 3px;
+    }
+
     .conociemiento-titulo {
         text-align: center;
     }
@@ -746,7 +759,76 @@ a>i {
     .lista {
         padding: 0px;
     }
-    .titulo-nombre{
+
+    .titulo-nombre {
         text-align: center;
     }
+}
+
+/* hoover y active */
+
+.puntero:hover {
+    color: #d6d9ce;
+}
+.boton-contact:hover{
+    color: #F1B5CB ;
+}
+
+.card-proyecto:hover {
+    border: 2px solid #F1B5CB;
+
+}
+
+.card:hover {
+    border: 2px solid #F1B5CB;
+}
+
+.icon3:hover {
+    background-color: #F1B5CB;
+    padding: 10px;
+    border-radius: 100%;
+    color: white;
+    text-align: center;
+}
+
+.box-icon-redes:hover {
+    color: #F1B5CB;
+}
+
+.icon2:hover {
+    color: white;
+
+}
+
+.container-icon2:hover {
+    background-color: #F1B5CB;
+    color: white;
+}
+
+
+.puntero:active {
+    border: 2px solid #d6d9ce;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 0%;
+    box-shadow: 2px 6px 11px 1px rgba(255, 217, 255, 1);
+}
+
+.card-proyecto :active {
+    box-shadow: 2px 6px 11px 1px rgba(255, 217, 255, 1);
+    color: violet;
+}
+
+.box-icon-redes:active {
+    border: 2px solid rgba(255, 217, 255, 1);
+    box-shadow: 2px 6px 11px 1px rgba(255, 217, 255, 1);
+    height: 50%;
+    border-radius: 50px;
+    padding: 2px 20px;
+}
+
+:focus {
+    outline: 3px solid violet;
+    box-shadow: 2px 6px 11px 1px rgba(255, 217, 255, 1);
+
 }
