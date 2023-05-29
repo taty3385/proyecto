@@ -2,7 +2,6 @@ body {
     margin: 0px;
     box-sizing: border-box;
     font-size: 1rem;
-
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -50,12 +49,20 @@ li>a {
     min-width: 15%;
     padding: 2px 30px;
     border-radius: 1.25rem;
-    background-color: #d6d9ce;
+    background-color: #bada63;
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
+    transition: background-color, color, 2s;
 
 }
+
+/* transicion */
+.boton:hover {
+    background-color: #ddf1b3;
+    color: white;
+}
+
 
 /* final de secciom header */
 
@@ -127,10 +134,17 @@ img {
     min-width: 15%;
     padding: 0.625rem 1.875rem;
     border-radius: 1.25rem;
-    background-color: #d6d9ce;
+    background-color: #bada63;
     color: white;
     font-size: 1.25rem;
     text-decoration: none;
+    transition: background-color, color, 2s;
+}
+
+/* transicion */
+.boton:hover {
+    background-color: #ddf1b3;
+    color: white;
 }
 
 /* seccion conocimiento */
@@ -460,16 +474,22 @@ textarea {
 }
 
 .boton-formu {
-    background-color: #d6d9ce;
+    background-color: #bada63;
     width: 6.25rem;
     margin: 20px 0px;
     padding: 15px;
     border: 0px;
     border-radius: 10px;
     color: white;
-    transition-timing-function: 7s;
+    transition: background-color , color , 2s;
 
 }
+/* trancision */
+.boton-formu:hover {
+    background-color: #ddf1b3;
+    color: white;
+}
+
 
 
 /* fin  de formulario */
@@ -770,8 +790,9 @@ a>i {
 .puntero:hover {
     color: #d6d9ce;
 }
-.boton-contact:hover{
-    color: #F1B5CB ;
+
+.boton-contact:hover {
+    color: #F1B5CB;
 }
 
 .card-proyecto:hover {
