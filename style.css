@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    box-sizing: border-box;
+    box-sizing: border-box;    
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -413,7 +413,7 @@ img[src$=jpg] {
 .icon3 {
     width: 1.25rem;
     margin: 0rem 1.25rem 0rem 0rem;
-    color: blueviolet;
+    color: #bada63;
 }
 
 
@@ -536,7 +536,7 @@ textarea {
 }
 
 a>i {
-    color: blueviolet;
+    color: #bada63;
 
 }
 
@@ -799,24 +799,25 @@ a>i {
 }
 
 .card-proyecto:hover {
-    border: 2px solid #F1B5CB;
+    border: 2px solid #bada63;
 
 }
 
 .card:hover {
-    border: 2px solid #F1B5CB;
+    border: 2px solid #bada63;
 }
 
-.icon3:hover {
+.contenedor-redes-sociales :hover .box-icon-redes {
+    color: #bada63;
+  
+}
+.contenedor-redes-sociales :hover .icon3 {
     background-color: #F1B5CB;
     padding: 10px;
     border-radius: 100%;
     color: white;
     text-align: center;
-}
 
-.box-icon-redes:hover {
-    color: #F1B5CB;
 }
 
 .icon2:hover {
@@ -825,7 +826,7 @@ a>i {
 }
 
 .container-icon2:hover {
-    background-color: #F1B5CB;
+    background-color: #bada63;
     color: white;
 }
 
