@@ -662,8 +662,14 @@ a>i {
     }
 
 }
+@media(max-width:698px){
+    .lista{
+        display: none;
+    }
+}
 
 @media(max-width:599px) {
+
     .icon {
         font-size: 50px;
     }
@@ -703,14 +709,11 @@ a>i {
     }
 
     .pie-de-pagina {
-        padding: 0;
+        padding: 0.625rem;
 
     }
 
-    .menu-footer {
-        font-size: 15px;
-    }
-
+   
 }
 
 @media(max-width:476px) {
@@ -720,14 +723,15 @@ a>i {
 }
 
 
-@media (max-width:416px) {
+@media (max-width:420px) {
     .boton {
         width: 10%;
-        padding: 5px 20px;
+        padding: 0.3125rem 1.25rem;
     }
 
-    .conociemiento-titulo {
+    .titulos {
         text-align: center;
+        font-size: 30px;
     }
 
     .card {
