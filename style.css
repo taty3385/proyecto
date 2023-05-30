@@ -1,6 +1,6 @@
 body {
     margin: 0px;
-    box-sizing: border-box;    
+    box-sizing: border-box;
     font-size: 1rem;
     font-family: 'Montserrat', sans-serif;
 }
@@ -131,7 +131,7 @@ img {
 
 .boton {
     box-sizing: border-box;
-    min-width: 15%;
+    width: 15%;
     padding: 0.625rem 1.875rem;
     border-radius: 1.25rem;
     background-color: #bada63;
@@ -406,8 +406,8 @@ img[src$=jpg] {
     color: black;
     display: block;
     height: 50%;
-    padding: 5px 20px;
-    border-radius: 20px;
+    padding: 7px 5px;
+    border-radius: 1.25rem;
 }
 
 .icon3 {
@@ -481,9 +481,10 @@ textarea {
     border: 0px;
     border-radius: 10px;
     color: white;
-    transition: background-color , color , 2s;
+    transition: background-color, color, 2s;
 
 }
+
 /* trancision */
 .boton-formu:hover {
     background-color: #ddf1b3;
@@ -662,8 +663,9 @@ a>i {
     }
 
 }
-@media(max-width:698px){
-    .lista{
+
+@media(max-width:698px) {
+    .lista {
         display: none;
     }
 }
@@ -757,10 +759,10 @@ a>i {
 }
 
 
-@media(max-width:360px) {
+@media (max-width:360px) {
     .boton {
         width: 30%;
-        padding: 10px 3px;
+        padding: 0.625rem 0.1875rem;
     }
 
     .conociemiento-titulo {
@@ -772,11 +774,14 @@ a>i {
     }
 
     .box-icon-redes {
-        flex-grow: 1;
+
+        font-size: 0.9375rem;
     }
 
     .menu-footer {
-        font-size: 12px;
+        font-size: 0.75rem;
+
+
     }
 
     .lista {
@@ -785,6 +790,15 @@ a>i {
 
     .titulo-nombre {
         text-align: center;
+    }
+}
+
+@media(max-width:289px) {
+    .boton {
+        width: 50%;
+        padding: 5px 0px;
+
+
     }
 }
 
@@ -809,8 +823,9 @@ a>i {
 
 .contenedor-redes-sociales :hover .box-icon-redes {
     color: #bada63;
-  
+
 }
+
 .contenedor-redes-sociales :hover .icon3 {
     background-color: #F1B5CB;
     padding: 10px;
