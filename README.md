@@ -15,7 +15,7 @@
 * Y por ultimo se encuentra el footer donde encontraras una barra de navegacion para interactuar con el sitio y mis redes sociales para contactarme . 
 
 
-<p align="">🙈 Link al proyecto: <a href="https://" target="_blank">My proyecto</a></p>
+<p align="">🙈 Link al proyecto: <a href="https://taty3385.github.io/proyecto/" target="_blank">My proyecto</a></p>
 
 
 
