@@ -14,6 +14,9 @@
 * Tambien contiene un formulario con las seccion contactame que contiene mis redes sociales y la secciom escribime donde se encuentra el formulario.
 * Y por ultimo se encuentra el footer donde encontraras una barra de navegacion para interactuar con el sitio y mis redes sociales para contactarme . 
 
-<p align="">🎥 Link al proyecto: <a href="https://tmdb-adaitw.vercel.app/" target="_blank">TMDB API</a></p>
+
+<p align="">🙈 Link al proyecto: <a href="https://" target="_blank">My proyecto</a></p>
+
+
 
 
