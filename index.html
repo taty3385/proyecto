@@ -296,27 +296,30 @@
                     <h2 class="formulario-titulo titulos">
                         Escribime
                     </h2>
+                    
+                <form id=" datos del usuario">
                     <div class="part-1formu">
-                        <form id=" datos del usuario"></form>
                         <div class="formu-nombre">
                             <label for="nombre-usuario"> Nombre*</label>
-                            <input type=" text" id="nombre-usuario" placeholder=" p. ej:Tamara" required>
+                            <input type=" text" id="nombre-usuario" pattern="^[a-zA-Z]+$" placeholder=" p. ej:Tamara" required >
                         </div>
                         <div class="formu-apellido">
                             <label for="apellido-usuario">Apellido*</label>
-                            <input type="text" id="apellido-usuario" placeholder="P.ej: Zarate" required>
+                            <input type="text" id="apellido-usuario" pattern="^[a-zA-Z]+$" placeholder="P.ej: Zarate" required>
                         </div>
                     </div>
                     <div class="part-2formu">
-                        <label for="email-usuario"> email:</label>
-                        <input type="email" id="email-usuario " placeholder="P. ej: usuario@gmail.com" required>
+                        <label for="email-usuario"> Email:</label>
+                        <input type="Email" id="email-usuario " placeholder="P. ej: usuario@gmail.com" required >
                         <label for="comentario">Mensaje*.</label>
                         <textarea id="comentario" cols="30" rows="10" placeholder="Ingrese su mensaje"
                             required></textarea>
                     </div>
                     <div class="box-boton2">
-                        <button class="boton-formu ">Enviar</button>
+                        <input class="boton-formu" type="submit" value="Enviar" />
                     </div>
+                </form>
+                    
 
                 </div>
             </div>
