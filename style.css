@@ -67,6 +67,15 @@ li>a {
 /* final de secciom header */
 
 /* seccion presentacion */
+.box-menu-hamburgesa{
+    display: none;
+}
+.menu-hamburgesa{
+    font-size: 30px;
+    margin-left: 15px;
+    margin-top: 15px;
+    
+}
 .seccion-principal {
     box-sizing: border-box;
     display: flex;
@@ -316,7 +325,6 @@ img {
     border: 0.125rem solid rgb(224, 224, 224);
     margin: 0.625rem;
     background-color: white;
-
     width: 30%;
     display: flex;
 
@@ -349,6 +357,7 @@ img[src$=jpg] {
     text-decoration: none;
 
 }
+
 
 /* fin de proyecto  */
 
@@ -568,6 +577,9 @@ a>i {
     .container-nav {
         display: none;
     }
+    .box-menu-hamburgesa{
+        display: block;
+    }
 
     .contenedor-imagen {
         width: 70%;
@@ -577,7 +589,7 @@ a>i {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        margin-top: 12.5rem;
+        margin-top: 6.25rem;
         padding-bottom: 6.25rem;
     }
 
@@ -839,11 +851,13 @@ a>i {
 
 .card-proyecto:hover {
     border: 0.125rem solid #bada63;
+    box-shadow: 0.125rem 0.375rem 0.6875rem 0.0625rem  #bada63
 
 }
 
 .card:hover {
     border: 0.125rem solid #bada63;
+    box-shadow: 0.125rem 0.375rem 0.6875rem 0.0625rem  #bada63
 }
 
 .contenedor-redes-sociales :hover .box-icon-redes {
