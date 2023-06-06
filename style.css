@@ -57,11 +57,7 @@ li>a {
 
 }
 
-/* transicion */
-.button:hover {
-    background-color: #ddf1b3;
-    color: white;
-}
+
 
 
 /* final de secciom header */
@@ -155,7 +151,7 @@ img {
 /* transicion */
 .button:hover {
     background-color: #ddf1b3;
-    color: white;
+    color: #F1B5CB;
 }
 
 /* seccion conocimiento */
@@ -433,29 +429,29 @@ img[src$=jpg] {
 
 }
 
-.part-1formu {
+.part-1-form {
     display: flex;
 }
 
 
-.formu-nombre {
+.form-name {
     display: flex;
     flex-direction: column;
     width: 45%;
     margin: 0rem 1.875rem 0rem 0rem;
 }
 
-.formu-apellido {
+.form-surname {
     display: flex;
     flex-direction: column;
-    width: 47%;
+    width: 48%;
 }
 
 .container-formulario {
     padding: 1.25rem 1.25rem;
 }
 
-.part-2formu {
+.part-2-form {
     display: flex;
     flex-direction: column;
 
@@ -497,7 +493,7 @@ textarea {
 
 }
 
-.boton-formu {
+.form-button {
     background-color: #bada63;
     width: 6.25rem;
     margin: 1.25rem 0rem;
@@ -510,9 +506,9 @@ textarea {
 }
 
 /* trancision */
-.boton-formu:hover {
+.form-button:hover {
     background-color: #ddf1b3;
-    color: white;
+    color: rgb(229, 152, 155) ;
 }
 
 
@@ -520,7 +516,7 @@ textarea {
 /* fin  de formulario */
 /* seccion footer */
 
-.pie-de-pagina {
+.footer {
     background-color: rgb(229, 152, 155);
     display: flex;
     flex-direction: column;
@@ -530,7 +526,7 @@ textarea {
 }
 
 
-.lista {
+.footer-list {
     display: flex;
     justify-content: center;
     list-style: none;
@@ -542,14 +538,14 @@ textarea {
     margin: 0.625rem;
 }
 
-.icono-footer {
+.footer-icon {
     display: flex;
     justify-content: center;
     padding: auto;
 
 }
 
-.icono-footer>.container-icon2 {
+.footer-icon>.container-icon2 {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -672,7 +668,7 @@ a>i {
         flex-grow: 1;
 
     }
-    .formu-apellido{
+    .form-surname{
         width: 50%;
     }
 
@@ -698,7 +694,7 @@ a>i {
 }
 
 @media(max-width:698px) {
-    .lista {
+    .footer-list {
         display: none;
     }
 }
@@ -755,16 +751,16 @@ a>i {
         width: 100%;
     }
 
-    .part-1formu {
+    .part-1-form {
         flex-direction: column;
 
     }
 
-    .formu-nombre {
+    .form-name {
         width: 100%;
     }
 
-    .formu-apellido {
+    .form-surname {
         width: 100%;
     }
 }
@@ -830,7 +826,7 @@ a>i {
 
     }
 
-    .lista {
+    .footer-list {
         padding: none;
     }
 
